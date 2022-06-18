@@ -30,8 +30,8 @@ class ConvertToSolution(
             depotList = depotList,
             customerList = customerList,
             vehicleList = vehicleList,
-            northEastCorner = Location(0, -25.22486, -50.597785),
-            southWestCorner = Location(0, -25.553336, -48.551379)
+            northEastCorner = Location(0, 3.1869082, -52.2150111),
+            southWestCorner = Location(0, -33.6859472, -53.4654995)
         )
 
         repository.update(vehicleRoutingSolution)
